@@ -9,9 +9,9 @@ export default function Header () {
 
     const menuItems = [
         'about',
-        'portfolio',
+        // 'portfolio',
         // 'blog',
-        'contact'
+        // 'contact'
     ]
 
     return (
