@@ -25,9 +25,9 @@ export default function Header () {
             <styled.MenuWrapper>
                 {
                     menuItems.map(item => (
-                        <Link to={`/${item}`}>
+                        <Link key={item} to={`/${item}`}>
                             <styled.MenuItem onMouseEnter={() => setHovered(item)} onMouseLeave={() => setHovered('')}>
-                                <Link to={`/${item}`}><span>{item}</span></Link>
+                               <span>{item}</span>
                             </styled.MenuItem>
                         </Link>
                     ))

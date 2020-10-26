@@ -62,7 +62,7 @@ const IndexPage = () => {
         </FlexContainer>
         <SkillsWrapper>
           {
-            skills.map(({ title, description }) => <SkillCard title={title} description={description}/>)
+            skills.map(({ title, description }) => <SkillCard key={title} title={title} description={description}/>)
           }
         </SkillsWrapper>
       </Layout>
