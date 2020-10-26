@@ -36,10 +36,10 @@ const SkillsWrapper = styled.div`
 
 // Skills
 const skills = [
-  { title: 'Javascript', description: 'Passionated on building great products that people will love to use. Great passion for product design and software development. Activily studying machine learning and AI'},
-  { title: 'React', description: 'Passionated on building great products that people will love to use. Great passion for product design and software development. Activily studying machine learning and AI'},
-  { title: 'Cloud Computing', description: 'Passionated on building great products that people will love to use. Great passion for product design and software development. Activily studying machine learning and AI'},
-  { title: 'Data Visualization', description: 'Passionated on building great products that people will love to use. Great passion for product design and software development. Activily studying machine learning and AI'},
+  { title: 'Javascript', description: `I've been building applications with JS for over 5 years. Both in the Frontend, transforming great designs in to pixel-perfect products, as well as designing and implementing APIs and Backend services. About 2 years ago I've been cheating JS with TypeScript. Please keep it to yourself.`},
+  { title: 'React', description: `Been part of the React ecosystem about 4 years ago. It's one of my strongest skills. I have experience in designing re-usable components libraries. Keeping up to date on the latest state-management patterns, best testing practices, and the most popular styling libraries is one my hobbies that I appreciate the most.` },
+  // { title: 'Cloud Computing', description: 'Passionated on building great products that people will love to use. Great passion for product design and software development. Activily studying machine learning and AI'},
+  { title: 'Data Visualization', description: `I find fascinating how simple visualisations can lead to great decision-making. I've designed and implemented an internal analytics dashboard. By the way, my bachelor was in business.`},
 ]
 
 const IndexPage = () => {
