@@ -36,10 +36,10 @@ const SkillsWrapper = styled.div`
 
 // Skills
 const skills = [
-  { title: 'Javascript', description: `I've been building applications with JS for over 5 years. Both in the Frontend, transforming great designs in to pixel-perfect products, as well as designing and implementing APIs and Backend services. About 2 years ago I've been cheating JS with TypeScript. Please keep it to yourself.`},
-  { title: 'React', description: `Been part of the React ecosystem about 4 years ago. It's one of my strongest skills. I have experience in designing re-usable components libraries. Keeping up to date on the latest state-management patterns, best testing practices, and the most popular styling libraries is one my hobbies that I appreciate the most.` },
+  { title: 'Javascript', description: `I've been building applications with JS for over 5 years. Both in the Frontend, transforming great designs into pixel-perfect products, as well as designing and implementing APIs and Backend services. I've been cheating JS with TypeScript for about 2 years now. Please keep it to yourself.`},
+  { title: 'React', description: `I have been part of the React ecosystem for about 4 years. It's one of my strongest skills. I have experience in designing re-usable components libraries. Keeping up to date on the latest state-management patterns, best testing practices, and the most popular styling libraries is one of my hobbies that I appreciate the most.` },
   // { title: 'Cloud Computing', description: 'Passionated on building great products that people will love to use. Great passion for product design and software development. Activily studying machine learning and AI'},
-  { title: 'Data Visualization', description: `I find fascinating how simple visualisations can lead to great decision-making. I've designed and implemented an internal analytics dashboard. By the way, my bachelor was in business.`},
+  { title: 'Data Visualization', description: `I find it fascinating how simple visualisations can lead to great decision-making. I've designed and implemented an internal analytics dashboard. By the way, my bachelor was in business.`},
 ]
 
 const IndexPage = () => {
@@ -53,7 +53,7 @@ const IndexPage = () => {
           <TitleWrapper>
             <Title size={TitleSize.large}>Software Engineer</Title>
             <HeroTextWrapper>
-              <Text size={TextSize.large}>Passionated about building great products that people want to use. Great passion for product design and software development. Activily studying machine learning and AI.</Text>
+              <Text size={TextSize.large}>Passionate about building great products that people want to use. Great passion for product design and software development. Actively studying AI.</Text>
             </HeroTextWrapper>
           </TitleWrapper>
           <AnimationWrapper>
