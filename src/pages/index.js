@@ -13,10 +13,19 @@ import { AnimationContext } from '../contexts/animation-context'
 const HeroTextWrapper = styled.div`
   width: 60%;
   max-width: 800px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const TitleWrapper = styled.div`
   width: 60%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+  }
 `
 
 const AnimationWrapper = styled.div`
@@ -25,6 +34,10 @@ const AnimationWrapper = styled.div`
   justify-content: center;
   width: 40%;
   margin-top: 100px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 const SkillsWrapper = styled.div`
@@ -32,6 +45,10 @@ const SkillsWrapper = styled.div`
   grid-template-columns: 1fr 1fr;
   column-gap: 20%;
   margin-top: 60px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 // Skills
