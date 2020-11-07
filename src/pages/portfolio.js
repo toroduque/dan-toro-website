@@ -19,7 +19,7 @@ export default function Portfolio() {
     {
         name: "Machine Learning: Gestures Recognition",
         description: "Concept idea of navigating a website with your hands gestures. This was a project for a Hackweek in Bluedot. It was built with TensorFlow.js and React",
-        url: "https://github.com/toroduque/tfjs-gesture-recognition",
+        url: "https://gestures-recognition.web.app/",
     },
   ]
 
