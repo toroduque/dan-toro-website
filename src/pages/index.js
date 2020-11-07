@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import Title, { TitleSize } from '../components/Title'
 import FlexContainer from '../components/FlexContainer'
+import Layouts from '../components/Layouts'
 import Text, { TextSize } from '../components/Text' 
 import Layout from '../components/layout'
 import MainAnimation from '../components/MainAnimation'
@@ -40,17 +41,6 @@ const AnimationWrapper = styled.div`
   }
 `
 
-const SkillsWrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20%;
-  margin-top: 60px;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
-`
-
 // Skills
 const skills = [
   { title: 'Javascript', description: `I've been building applications with JS for over 5 years. Both in the Frontend, transforming great designs into pixel-perfect products, as well as designing and implementing APIs and Backend services. I've been cheating JS with TypeScript for about 2 years now. Please keep it to yourself.`},
@@ -77,11 +67,11 @@ const IndexPage = () => {
              <MainAnimation />
           </AnimationWrapper>
         </FlexContainer>
-        <SkillsWrapper>
+        <Layouts.TwoColumns>
           {
             skills.map(({ title, description }) => <SkillCard key={title} title={title} description={description}/>)
           }
-        </SkillsWrapper>
+        </Layouts.TwoColumns>
       </Layout>
     </AnimationContext.Provider>
   )
