@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import Title, { TitleSize } from '../components/Title'
 import FlexContainer from '../components/FlexContainer'
+import Layouts from '../components/Layouts'
 import Text, { TextSize } from '../components/Text' 
 import Layout from '../components/layout'
 import MainAnimation from '../components/MainAnimation'
@@ -13,10 +14,19 @@ import { AnimationContext } from '../contexts/animation-context'
 const HeroTextWrapper = styled.div`
   width: 60%;
   max-width: 800px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const TitleWrapper = styled.div`
   width: 60%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+  }
 `
 
 const AnimationWrapper = styled.div`
@@ -25,13 +35,10 @@ const AnimationWrapper = styled.div`
   justify-content: center;
   width: 40%;
   margin-top: 100px;
-`
 
-const SkillsWrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20%;
-  margin-top: 60px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 // Skills
@@ -60,11 +67,11 @@ const IndexPage = () => {
              <MainAnimation />
           </AnimationWrapper>
         </FlexContainer>
-        <SkillsWrapper>
+        <Layouts.TwoColumns>
           {
             skills.map(({ title, description }) => <SkillCard key={title} title={title} description={description}/>)
           }
-        </SkillsWrapper>
+        </Layouts.TwoColumns>
       </Layout>
     </AnimationContext.Provider>
   )

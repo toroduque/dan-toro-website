@@ -4,10 +4,15 @@ import Header from './Header'
 import Footer from './Footer'
 
 const GlobalStyle = createGlobalStyle`
+    :root {
+        --white: #f1f1f1;
+        --dark-grey: #383838;
+    }
+
     body {
         margin: 0;
         font-family: 'Hind', Helvetica, Arial, sans-serif;
-        background-color: #f1f1f1;
+        background-color: var(--white);
     }
 
     a {

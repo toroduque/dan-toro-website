@@ -11,6 +11,10 @@ interface IProps {
 
 const Title = styled.h1`
     font-size: ${ ({ size } : IProps) => size || TitleSize.medium };
+
+    @media(max-width: 768px) {
+        line-height: 70px;
+    };
 `
 
 export default Title

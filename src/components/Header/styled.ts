@@ -34,15 +34,15 @@ export const MenuItem = styled.div`
 
     span {
         padding-bottom: 1px;
-        border-bottom: solid 1px #f1f1f1;
+        border-bottom: solid 1px var(--white);
         transition: 0.2s;
     }
 
     &::before {
         content: '';
         position: absolute;
-        border-bottom: dotted 2px #f1f1f1;
-        border-top: dotted 2px #f1f1f1;
+        border-bottom: dotted 2px var(--white);
+        border-top: dotted 2px var(--white);
         width: 100%;
         height: 0;
         bottom: 0;
@@ -52,8 +52,8 @@ export const MenuItem = styled.div`
     &::after {
         content: '';
         position: absolute;
-        border-bottom: dotted 2px #f1f1f1;
-        border-top: dotted 2px #f1f1f1;
+        border-bottom: dotted 2px var(--white);
+        border-top: dotted 2px var(--white);
         width: 100%;
         height: 0;
         bottom: 0;

@@ -5,7 +5,7 @@ export const FooterWrapper = styled.div`
     justify-content: flex-end;
     width: 100%;
     border-top: solid 2px black;
-    background-color: #f1f1f1;
+    background-color: var(--white);
     position: fixed;
     bottom: 0;
 `
@@ -22,8 +22,8 @@ export const FooterOption = styled.div`
     &::before {
         content: '';
         position: absolute;
-        border-bottom: dotted 2px #f1f1f1;
-        border-top: dotted 2px #f1f1f1;
+        border-bottom: dotted 2px var(--white);
+        border-top: dotted 2px var(--white);
         width: 4.3rem;
         height: 0;
         bottom: 0;

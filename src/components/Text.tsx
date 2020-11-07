@@ -14,6 +14,10 @@ const Text = styled.p`
     font-size: ${({ size } : IProps) => size || TextSize.medium };
     margin: 0;
     line-height: 40px;
+
+    @media(max-width: 768px) {
+        line-height: 32px;
+    };
 `
 
 export default Text
