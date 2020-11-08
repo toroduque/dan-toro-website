@@ -54,6 +54,17 @@ module.exports = {
           measurementId: process.env.GATSBY_FIREBASE_MEASUREMENT_ID
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Hind`,
+            variants: [`300`, `400`, `500`, `600`, `700`]
+          }
+        ],
+      },
     }
   ],
 }
