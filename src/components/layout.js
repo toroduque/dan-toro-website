@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
 `
 const LayoutContentWrapper = styled.div`
     margin: 0 36px 36px 36px;
+    padding-bottom: 5rem;
 `
 
 export default function Layout({ children }) {
