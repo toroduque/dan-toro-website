@@ -56,14 +56,16 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
           {
-            family: `Hind`,
-            variants: [`300`, `400`, `500`, `600`, `700`]
+            family: 'Hind',
+            variable: true,
+            weights: ['200..900']
           }
         ],
+        display: 'swap',
       },
     }
   ],
