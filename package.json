@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "dan-toro-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "This is just my peronal website. ",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dan Toro <toro.duque@gmail.com>",
   "dependencies": {
     "@types/styled-components": "^5.1.4",
     "babel-plugin-styled-components": "^1.10.7",
